@@ -1,0 +1,44 @@
+.nominationsContainer {
+    position: relative;
+    background-color: white;
+    padding: 0.5rem;
+}
+
+.nominationsTitle {
+    margin: 0.5rem;  
+    font-weight: bold;
+}
+
+.nomination {
+    margin: 0.5rem;
+}
+
+.nominations {
+    margin-bottom: 2rem;
+}
+
+.indicator {
+    position: absolute;
+    bottom: 0.5rem;
+    right: 1rem;  
+    font-size: 0.8em;
+    margin: 0;
+}
+
+.removeButton {
+    cursor: pointer;
+}
+
+/* Specific styling for tablets*/
+@media only screen and (min-width: 768px) {
+    .removeButton {
+        float: right;
+    }
+}
+
+/* Specific styling for laptops*/
+@media only screen and (min-width: 1000px) {
+    .nominationsContainer {
+        width: 50%;
+    }
+}
